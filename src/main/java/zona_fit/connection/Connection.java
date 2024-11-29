@@ -7,8 +7,8 @@ public class Connection {
         java.sql.Connection connection = null;
         var database = "zona_fit_db";
         var url = "jdbc:mysql://localhost:3306/" + database;
-        var user = "root";
-        var password = "026ba91D..";
+        var user = "";
+        var password = "";
 
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
